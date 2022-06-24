@@ -8,3 +8,4 @@ https://www.yeelight.com/download/Yeelight_Inter-Operation_Spec.pdf
 ```
 Change your bulb ip and port in ./function/exec.php
 ```
+NB : Your bulb port is usually 55443 ; Your bulb ip can be found in network setting in the xiaomi app or by making a network scan
