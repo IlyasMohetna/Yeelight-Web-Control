@@ -1,0 +1,125 @@
+  body{
+  background:#ececec;
+}
+
+/*--<>_-_-_-_-_<>--
+Removers
+--<>_-_-_-_-_<>--*/
+
+/*Box Shadow Remover*/
+.vc-sketch,.vc-chrome{
+    box-shadow: none;
+}
+/*Border Radious Remover*/
+.vc-sketch{
+  border-radius:0;
+}
+/*Background Remover*/
+.vc-chrome-body,.vc-sketch,.vc-chrome{
+  background:transparent;
+}
+
+
+
+
+/*--<>_-_-_-_-_<>--
+Color Pickers
+--<>_-_-_-_-_<>--*/
+
+
+/*Vue Color Picker Core*/
+.vue-color-picker {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+/*Vue Color Picker Container*/
+.vue-color-picker-container {
+    background: #fff;
+}
+/*Vue Color Picker Body*/
+.vc-sketch,.vc-chrome{
+    width:300px;
+}
+/*Vue Color Picker Selector Body*/
+.vc-chrome {
+    height: 387px;
+    padding: 10px;
+}
+/*Vue Color Picker Scrubber Bar Height*/
+.vc-sketch-alpha-wrap,.vc-sketch-hue-wrap,.vc-chrome-alpha-wrap,.vc-chrome-hue-wrap {
+    height: 15px;
+}
+/*Vue Color Picker Scrubber Bar Selector Buttons*/
+.vc-chrome-hue-wrap .vc-hue-picker, .vc-chrome-alpha-wrap .vc-alpha-picker{
+    width: 16px;
+    height: 16px;
+}
+/*Vue Color Picker Scrubber Button Selectors*/
+.vc-saturation-circle,.vc-chrome-saturation-wrap .vc-saturation-circle {
+    width: 12px;
+    height: 12px;
+}
+/*Vue Color Picker Scrubber Bar Buttons*/
+.vc-hue-picker,.vc-alpha-picker {
+    width: 16px;
+    height: 16px;
+    border-radius: 6px;
+    transform: translate(-6px, -2px);
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 37%);
+    z-index: 10;
+}
+/*Vue Color Picker Selector Input*/
+.vc-chrome-fields .vc-input__input {
+    height: 30px;
+    font-size: 16px;
+}
+/*Vue Color Picker Input*/
+.vc-sketch-field .vc-input__input {
+    height: 23px;
+    font-size: 14px;
+}
+/*Vue Color Picker Under Input Text*/
+.vc-chrome-fields .vc-input__label,.vc-sketch-field .vc-input__label{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #969696;
+}
+/*Vue Color Picker Output Color Example Window*/
+.vc-sketch-color-wrap {
+    width: 50px;
+    height: 35px;
+}
+/*Vue Color Picker Selector Example Window Position*/
+.vc-chrome-color-wrap {
+    position: absolute;
+    width: 36px;
+    margin-top: 130px;
+}
+/*Vue Color Picker Selector Example Window*/
+.vc-chrome-color-wrap .vc-checkerboard,.vc-chrome-active-color {
+    width: 270px;
+    height: 65px;
+}
+/*Vue Color Picker Preset Colors*/
+.vc-sketch-presets-color{
+  width: 20px;
+    height: 20px;
+}
+/*Vue Color Picker Toggle Icon Position*/
+.vc-chrome-toggle-icon {
+    margin-right: -7px;
+    margin-top: 10px;
+}
+/*Vue Color Picker Toggle Icon Size*/
+.vc-chrome-toggle-icon svg {
+    width: 30px !important;
+    height: 30px !important;
+    background: #fff;
+}
+/*Vue Color Picker Toggle Icon Color*/
+.vc-chrome-toggle-icon svg path{
+    fill: #000;
+  stroke: #000;
+}
