@@ -5,7 +5,11 @@ Function names are dynamic and respond to the API endpoints found in the Xiaomi 
 https://www.yeelight.com/download/Yeelight_Inter-Operation_Spec.pdf
 
 
-[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)]([https://youtu.be/T-D1KVIuvjA](https://www.youtube.com/watch?v=_4IZ4fbg9Yg))
+
+
+https://user-images.githubusercontent.com/88718442/175824516-5637322c-72c0-47be-a308-9ceb9b4a9a35.mp4
+
+
 
 
 #### USAGE :
